@@ -82,5 +82,7 @@ For any questions regarding this paper or the code, please feel free to reach ou
 
 ## Reference
 [1] Y. Luo, et al. "Neurtv: Total variation on the neural domain," arXiv preprint arXiv:2405.17241, 2024.
+
 [2] Y. Luo, et al. "Low-Rank Tensor Function Representation for Multi-Dimensional Data Recovery," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 46, no. 5, pp. 3351-3369, May 2024, doi: 10.1109/TPAMI.2023.3341688.
+
 [3] Z. Zhang, et al. "Infrared Small Target Detection Combining Deep Spatial–Temporal Prior With Traditional Priors," in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-18, 2023, Art no. 5004718, doi: 10.1109/TGRS.2023.3323339.
