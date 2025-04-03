@@ -2,6 +2,12 @@
 
 This is the official implementation of "Neural Spatial-Temporal Tensor Representation for Infrared Small Target Detection".
 
+
+## Notification
+⭐⭐⭐ 03/25: We are invited by Dr. [Yisi Luo](https://yisiluo.github.io/) (advisor: [Prof. Deyu Meng](https://gr.xjtu.edu.cn/en/web/dymeng/1)) from XJTU to give a talk on our NeurSTT.
+
+🔥🔥🔥 03/25: We release the code of NeurSTT (ver 1.0).
+
 ## 1. Requirements
 
 - **Python 3.8**
