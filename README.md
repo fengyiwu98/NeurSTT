@@ -1,6 +1,6 @@
 # NeurSTT
 
-[Pattern Recognition 2025] This is the official implementation of "Neural Spatial-Temporal Tensor Representation for Infrared Small Target Detection".
+**[Pattern Recognition 2025]** This is the official implementation of "Neural Spatial-Temporal Tensor Representation for Infrared Small Target Detection".
 
 ## Notification
 🎉🎉🎉 May 2025: We are glad to inform that our NeurSTT is accepted by Pattern Recognition.
