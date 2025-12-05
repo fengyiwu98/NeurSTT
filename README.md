@@ -21,19 +21,19 @@
 
 ## 2. Datasets
 
-We used sequences from: [[1]](http://www.csdata.org/en/p/387/),[[2]](https://ieeexplore.ieee.org/document/10011452). Please download these datasets or set your own datasets to the `./data/` folder.
+We used sequences from: [[1]](http://www.csdata.org/en/p/387/),[[2]](https://ieeexplore.ieee.org/document/10011452). You can also download our dataset via [[Link]](https://drive.google.com/file/d/1kqOhVGV7R1-uGecr9mk1s5L8Co3Xf0GC/view?usp=drive_link) or set your own datasets to the `./data/` folder.
 
 ### Example Dataset Structure
 ```
 ├──./data/
-│    ├── exp1
+│    ├── sequence1
 │    │    ├── images
 │    │    │    ├── 000.bmp
 │    │    │    ├── 001.bmp
 │    │    │    ├── ...
-│    ├── exp1.gt
-│    │    │    ├── 000.bmp
-│    │    │    ├── 001.bmp
+│    ├── sequence1.gt
+│    │    │    ├── 000.png
+│    │    │    ├── 001.png
 │    │    │    ├── ...
 │    ├── ...
 ```
@@ -50,9 +50,15 @@ Evaluation of our model on other datasets is welcome!
     $ python main.py
     ```
   - To change parameters for further research:
+  - For 256 ✖️ 256 images
     ```bash
-    $ python main.py --model_name NeurSTT --dataset exp1 --frame 80 --gamma 0.25 --phi 5e-5 --kappa 1 --max_iter 1500
+    $ python main.py --model_name NeurSTT --dataset sequence1 --frame 80 --gamma 0.25 --phi 5e-5 --kappa 1 --max_iter 1500
     ```
+  - For 720 ✖️ 480 images
+    ```bash
+    $ python main.py --model_name NeurSTT --dataset sequence7 --frame 80 --gamma 0.05 --phi 5e-5 --kappa 100 --max_iter 1500
+    ```
+  
 
 ## 4. Commands for Evaluation
 
@@ -86,6 +92,9 @@ $ python eval.py
 │    │    ├── eval_log.txt
 │    ├── ...
 ```
+`Note:` For [[2]](https://ieeexplore.ieee.org/document/10011452), please set the threshold in utils.py `thresh  = 0.1 * maxvalue`.
+
+
 ## Contact
 For any questions regarding this paper or the code, please feel free to reach out to [wufengyi98@163.com](wufengyi98@163.com).
 
